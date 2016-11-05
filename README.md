@@ -1,5 +1,7 @@
 # TensorFlow Workshop at Google
 
+[TensorFlow Page](https://www.tensorflow.org/)
+
 ## Anaconda Installation
 
 **Create a conda environment called tensorflow:**
