@@ -1,1 +1,20 @@
-# tensorflow-workshop
+# TensorFlow Workshop at Google
+
+## Anaconda Installation
+### Using pip (because conda didn't work)
+
+```
+$ source activate tensorflow
+(tensorflow)$  # Your prompt should change
+```
+Select the correct binary to install:
+
+**Mac OS X, CPU only, Python 2.7:**
+```
+(tensorflow)$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.11.0rc2-py2-none-any.whl
+```
+Install for Python 2:
+**Python 2**
+```
+(tensorflow)$ pip install --ignore-installed --upgrade $TF_BINARY_URL
+```
