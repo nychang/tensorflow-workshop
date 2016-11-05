@@ -10,12 +10,13 @@ $ conda create -n tensorflow python=2.7
 ```
 
 Activate the environment and use conda or pip to install TensorFlow inside it.
-### Using pip (because conda didn't work)
 
 ```
 $ source activate tensorflow
 (tensorflow)$  # Your prompt should change
 ```
+**Using pip** *(because conda didn't work)*
+
 Select the correct binary to install:
 
 **Mac OS X, CPU only, Python 2.7:**
