@@ -41,6 +41,7 @@ $ source activate tensorflow
 (tensorflow)$
 ```
 
+**Start Python:**
 ```
 $ python
 ...
