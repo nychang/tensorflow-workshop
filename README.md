@@ -1,6 +1,15 @@
 # TensorFlow Workshop at Google
 
 ## Anaconda Installation
+
+Create a conda environment called tensorflow:
+
+**Python 2.7**
+```
+$ conda create -n tensorflow python=2.7
+```
+
+Activate the environment and use conda or pip to install TensorFlow inside it.
 ### Using pip (because conda didn't work)
 
 ```
