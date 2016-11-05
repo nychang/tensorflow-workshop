@@ -14,7 +14,6 @@ Select the correct binary to install:
 (tensorflow)$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.11.0rc2-py2-none-any.whl
 ```
 Install for Python 2:
-**Python 2**
 ```
 (tensorflow)$ pip install --ignore-installed --upgrade $TF_BINARY_URL
 ```
