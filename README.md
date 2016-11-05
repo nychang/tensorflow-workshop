@@ -34,7 +34,13 @@ Mac OS X, CPU only, Python 2.7:
 
 ## Test Installation
 
-**Run TensorFlow from the Command Line:**
+**Activate TensorFlow:** *(if not already activated)*
+
+```
+$ source activate tensorflow
+(tensorflow)$
+```
+
 ```
 $ python
 ...
@@ -49,3 +55,10 @@ Hello, TensorFlow!
 42
 >>>
 ```
+**Quit Python (Ctrl+D) and deactivate Tensorflow:**
+```
+(tensorflow)$ source deactivate
+$  # Your prompt should change
+```
+
+
